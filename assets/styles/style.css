@@ -2,6 +2,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 450;
 }
 
 body {
@@ -10,9 +12,21 @@ body {
 
 .calculator {
   background: #000;
-  width: 563px;
-  height: 1218px;
+  width: 390px;
+  height: 844px;
   border-radius: 50px;
+}
+
+.viewbar {
+  height: 40vh;
+  color: #fff;
+  font-size: 80px;
+}
+
+.viewbar p {
+  position: absolute;
+  right: 10px;
+  bottom: 500px;
 }
 
 .buttons {
@@ -26,15 +40,11 @@ body {
 }
 .circle {
   flex-basis: 22%;
-  background: grey;
-  width: 22%;
-  height: 120px;
+  background: rgb(92, 92, 92);
+  width: 21%;
+  height: 80px;
   margin: 5px;
   border-radius: 50%;
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  text-align: center;
 }
 
 .orange{
@@ -42,10 +52,28 @@ body {
 }
 
 .zero {
-  flex-basis: 44%;
+  flex-basis: 45%;
   border-radius: 50px;
 }
 
 .top3 {
-  background: lightgray;
+  background: #a1a1a1;
 }
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.zero h1 {
+  float: left;
+  padding-left: 15%;
+}
+
+.top3 h1 {
+  color: #000;
+}
+
+
+
