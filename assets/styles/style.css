@@ -28,6 +28,7 @@ body {
   margin: 10px;
   position: relative;
   transition: flex 0.7s ease-in;
+  margin-bottom: 50px;
 }
 
 .panel h3 {
@@ -56,4 +57,17 @@ body {
     display: none;
    }
 
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
