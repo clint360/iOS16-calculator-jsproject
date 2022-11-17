@@ -9,5 +9,43 @@ body {
 }
 
 .calculator {
-  
+  background: #000;
+  width: 563px;
+  height: 1218px;
+  border-radius: 50px;
+}
+
+.buttons {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+.circle {
+  flex-basis: 22%;
+  background: grey;
+  width: 22%;
+  height: 120px;
+  margin: 5px;
+  border-radius: 50%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.orange{
+  background: orange;
+}
+
+.zero {
+  flex-basis: 44%;
+  border-radius: 50px;
+}
+
+.top3 {
+  background: lightgray;
 }
