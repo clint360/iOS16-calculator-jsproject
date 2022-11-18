@@ -21,23 +21,27 @@ body {
   height: 40vh;
   color: #fff;
   font-size: 80px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+  height: 40%;
 }
 
 .viewbar p {
-  position: absolute;
-  right: 10px;
-  bottom: 500px;
+  position: relative;
+  padding-right: 10px;
 }
 
 .buttons {
   text-align: center;
-  position: relative;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
+
 .circle {
   flex-basis: 22%;
   background: rgb(92, 92, 92);
@@ -45,6 +49,11 @@ body {
   height: 80px;
   margin: 5px;
   border-radius: 50%;
+}
+
+.circle:active,
+.circle:focus {
+  filter: brightness(70%);
 }
 
 .orange{
@@ -73,7 +82,6 @@ h1 {
 
 .top3 h1 {
   color: #000;
+  font-size: 45px;
+  padding-top: 10px;
 }
-
-
-
