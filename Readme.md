@@ -41,4 +41,3 @@ Perfoming Simple mathematical operations.
 
 ## 📝 License
 
-This project is [Figma](./LICENSE) licensed.
