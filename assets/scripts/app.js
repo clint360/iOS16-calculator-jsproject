@@ -77,8 +77,10 @@ const getResultOfOperationAsStr = () => {
   } else if (operatorInMemory === 'division') {
     newValueNum = valueNumInMemory / currentValueNum;
   }
-
+ 
   return newValueNum.toString();
+
+
 };
 
 const handleOperatorClick = (operation) => {
@@ -94,9 +96,6 @@ const handleOperatorClick = (operation) => {
   operatorInMemory = operation;
   setStrAsValue('0');
 };
-
-
-
 
 // Add Event Listeners to functions
 acEl.addEventListener('click', () => {
@@ -162,3 +161,4 @@ decimalEl.addEventListener('click', () => {
     setStrAsValue(currentValueStr + '.');
   }
 });
+

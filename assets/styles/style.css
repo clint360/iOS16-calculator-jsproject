@@ -14,7 +14,7 @@ body {
   background: #000;
   width: 390px;
   height: 844px;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 .viewbar {
@@ -23,6 +23,7 @@ body {
   font-size: 80px;
   display: flex;
   align-items: flex-end;
+  flex-wrap: wrap;
   justify-content: right;
   height: 40%;
 }
@@ -30,6 +31,7 @@ body {
 .viewbar p {
   position: relative;
   padding-right: 10px;
+  word-wrap: inherit;
 }
 
 .buttons {
