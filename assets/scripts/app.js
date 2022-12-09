@@ -1,5 +1,5 @@
 // DOM Elements
-const valueEl = document.querySelector('.display')
+var valueEl = document.querySelector('.display')
 //top3 buttons
 const acEl = document.querySelector('.ac');
 const pmEl = document.querySelector('.pm')
